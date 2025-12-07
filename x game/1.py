@@ -72,6 +72,7 @@ if password == "mia2024":
     screen.addshape("20.gif")
     screen.addshape("46.gif")
     screen.addshape("22.gif")
+    screen.addshape("49.gif")
 
 
     w.penup()
@@ -100,6 +101,14 @@ if password == "mia2024":
             w.write("give all the input in lowercase only and that to \n without space and any other character.\n if you are in problamatic situation\n press 'x' to exit the game immediatly.",font=("Cascadia Mono",30,"bold"))
             time.sleep(5)
             w.clear()
+
+            jj.speed(100000)
+            jj.penup()
+            jj.goto(-400,0)
+            jj.shape("42.gif")
+            jjspeech.hideturtle()
+            jjspeech.penup()
+            jjspeech.goto(-500,0)
             
             screen.setup(width=2424,height=1400)
             screen.screensize(canvheight=1400,canvwidth=2424)
@@ -108,6 +117,15 @@ if password == "mia2024":
             screen.addshape("43.gif")
             screen.bgpic("46.gif")
             
+
+            jjspeech.write("She must be whore! \n She had fucked a lot of people!",font=("castellar",30,"bold"))
+            time.sleep(3)
+            jjspeech.clear()
+            jjspeech.write("Must see her nude in live even once in life!",font=("castellar",30,"bold"))
+            time.sleep(3)
+            jjspeech.clear()
+            jjspeech.write("I think she in the library \n I shall go there!",font=("Cascadia Mono",30,"bold"))
+
             mia.shape("14.gif")
             mia.hideturtle()
             image.shape("12.gif")
@@ -120,22 +138,7 @@ if password == "mia2024":
             miaspeech.hideturtle()
             miaspeech.goto(-500,300)
 
-            jj.speed(100000)
-            jj.penup()
-            jj.goto(-400,0)
-            jj.shape("42.gif")
-            jjspeech.hideturtle()
-            jjspeech.penup()
-            jjspeech.goto(-500,0)
-
-            jjspeech.write("She must be whore! \n She had fucked a lot of people!",font=("castellar",30,"bold"))
-            time.sleep(3)
-            jjspeech.clear()
-            jjspeech.write("Must see her nude in live even once in life!",font=("castellar",30,"bold"))
-            time.sleep(3)
-            jjspeech.clear()
-            jjspeech.write("I think she in the library \n I shall go there!",font=("Cascadia Mono",30,"bold"))
-
+            
             w.penup()
             w.hideturtle()
             w.goto(-800,-300)
