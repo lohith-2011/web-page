@@ -24,8 +24,8 @@ if password == "mia2024":
     basket = turtle.Turtle()
     object1 = turtle.Turtle()
     scoreboard = turtle.Turtle()
-    screen.addshape("yellow.gif")
-    screen.addshape("basket.gif")
+    screen.addshape("47.gif")
+    screen.addshape("21.gif")
     screen.addshape("20.gif")
 
     w.penup()
@@ -45,32 +45,33 @@ if password == "mia2024":
     screen.addshape("3.gif")
     screen.addshape("4.gif")
     screen.addshape("5.gif")
-    screen.addshape("tits1.gif")
-    screen.addshape("tits2.gif")
-    screen.addshape("vest1.gif")
-    screen.addshape("vest2.gif")
+    screen.addshape("40.gif")
+    screen.addshape("41.gif")
+    screen.addshape("44.gif")
+    screen.addshape("45.gif")
     screen.addshape("13.gif")
-    screen.addshape("unknown.gif")
+    screen.addshape("42.gif")
     screen.addshape("2.gif")
-    screen.addshape("panty1.gif")
-    screen.addshape("panty2.gif")
-    screen.addshape("pointer.gif")
-    screen.addshape("zoom.gif")
-    screen.addshape("pp.gif")
+    screen.addshape("27.gif")
+    screen.addshape("28.gif")
+    screen.addshape("30.gif")
+    screen.addshape("48.gif")
+    screen.addshape("31.gif")
     screen.addshape("6.gif")
     screen.addshape("7.gif")
     screen.addshape("8.gif")
-    screen.addshape("library-background.gif")
-    screen.addshape("pussy0.gif")
-    screen.addshape("pussy1.gif")
-    screen.addshape("pussy2.gif")
-    screen.addshape("mast0.gif")
-    screen.addshape("mast1.gif")
-    screen.addshape("mast2.gif")
+    screen.addshape("23.gif")
+    screen.addshape("32.gif")
+    screen.addshape("33.gif")
+    screen.addshape("34.gif")
+    screen.addshape("24.gif")
+    screen.addshape("25.gif")
+    screen.addshape("26.gif")
     screen.addshape("11.gif")
     screen.addshape("15.gif")
     screen.addshape("20.gif")
-    screen.addshape("wallpaper.gif")
+    screen.addshape("46.gif")
+    screen.addshape("22.gif")
 
 
     w.penup()
@@ -104,9 +105,9 @@ if password == "mia2024":
             screen.screensize(canvheight=900,canvwidth=1424)
             screen.bgcolor("white")
             screen.addshape("12.gif")
-            screen.addshape("up.gif")
-            screen.bgpic("wallpaper.gif")
-            """
+            screen.addshape("43.gif")
+            screen.bgpic("46.gif")
+            
             mia.shape("14.gif")
             mia.hideturtle()
             image.shape("12.gif")
@@ -122,7 +123,7 @@ if password == "mia2024":
             jj.speed(100000)
             jj.penup()
             jj.goto(-400,0)
-            jj.shape("unknown.gif")
+            jj.shape("42.gif")
             jjspeech.hideturtle()
             jjspeech.penup()
             jjspeech.goto(-500,0)
@@ -140,7 +141,8 @@ if password == "mia2024":
             w.goto(-800,-300)
             wi.goto(-400,-300)
             wi.showturtle()
-
+            w.write("you are going to the library.",font=("castel1ar",30,"bold"))
+            screen.bgpic("22.gif")
 
 
             miaspeech.write("I think I am the hottest woman in the world.\n do you agree with me?",font=("Cascadia Mono",16,"bold"))
@@ -151,7 +153,7 @@ if password == "mia2024":
                 time.sleep(3)
                 jjspeech.clear()
                 miaspeech.clear()
-                image.shape("up.gif")
+                image.shape("43.gif")
                 miaspeech.write("you knew about me very well, \n you are making me blush",font=("Cascadia Mono",20,"bold"))
                 time.sleep(3)
                 miaspeech.clear()
@@ -171,9 +173,9 @@ if password == "mia2024":
             if color == "black":
                 w.clear()
                 jjspeech.write("Yes of course my mia",font=("Cascadia Mono",20,"bold"))
-                image.shape("vest1.gif")
+                image.shape("44.gif")
                 time.sleep(2)
-                image.shape("vest2.gif")
+                image.shape("45.gif")
                 miaspeech.clear()
                 miaspeech.write("it is free now , can you make \n me even more free",font=("Cascadia Mono",20,"bold"))
                 time.sleep(3)
@@ -236,9 +238,9 @@ if password == "mia2024":
                 miaspeech.write("You have a good memeory power",font=("Cascadia Mono",20,"bold"))
                 image.shape("4.gif")
                 time.sleep(1)
-                image.shape("tits1.gif")
+                image.shape("40.gif")
                 time.sleep(1)
-                image.shape("tits2.gif")
+                image.shape("41.gif")
                 miaspeech.clear()
                 
             else:
@@ -258,7 +260,7 @@ if password == "mia2024":
             w.clear()
             w.write("move the pointer to mia's left buttock's top",font=("Cascadia Mono",20,"bold"))
 
-            p.shape("pointer.gif")
+            p.shape("30.gif")
             p.penup()
             pan.write("move here")
 
@@ -292,9 +294,9 @@ if password == "mia2024":
             while True:
                 screen.update()
                 if p.distance(pan) < 100:
-                    image.shape("panty1.gif")
+                    image.shape("27.gif")
                     time.sleep(1)
-                    image.shape("panty2.gif")
+                    image.shape("28.gif")
                     miaspeech.clear()
                     w.clear()
                     miaspeech.write("Ahh! you touched there!\n I am feeling sexy now",font=("Cascadia Mono",20,"bold"))
@@ -308,7 +310,7 @@ if password == "mia2024":
             panty = turtle.textinput("want to see something cool?","yes/no")
 
             if panty =="yes":
-                image.shape("zoom.gif")
+                image.shape("48.gif")
                 time.sleep(1)
                 miaspeech.clear()
                 miaspeech.write("As you wish, I wil remove it!",font=("Cascadia Mono",20,"bold"))
@@ -335,7 +337,7 @@ if password == "mia2024":
             miaspeech.clear()
             jjspeech.clear()
             miaspeech.write("Before you fuck me\n let me check your penis size",font=("Cascadia Mono",20,"bold"))
-            image.shape("pp.gif")
+            image.shape("31.gif")
             miaspeech.clear()
             jjspeech.write("ok let's check what you want",font=("Cascadia Mono",20,"bold"))
             miaspeech.write("in this image,  there are three sizes given\n small or average or large\n what is your size?",font=("Cascadia Mono",20,"bold"))
@@ -412,7 +414,7 @@ if password == "mia2024":
             scoreboard.goto(0,300)
             score = 0
 
-            screen.bgpic("yellow.gif")
+            screen.bgpic("47.gif")
             basket.penup()
 
             turtle.title("Screen experiment")
@@ -420,7 +422,7 @@ if password == "mia2024":
             turtle.setup(width = 810, height=847, startx =0,starty=0)
             turtle.screensize(canvwidth = 800,canvheight= 800)
             basket.goto(0,-380)
-            basket.shape("basket.gif")
+            basket.shape("21.gif")
 
             object1.penup()
             object1.goto(-380,380)
@@ -475,17 +477,17 @@ if password == "mia2024":
             jj.showturtle()
             mia.showturtle()
             image.showturtle()
-            screen.bgpic("library-background.gif")
+            screen.bgpic("23.gif")
             w.showturtle()
 
             miaspeech.write("let me show you something special",font=("Cascadia Mono",20,"bold"))
             jjspeech.write("I am waiting for it mia",font=("Cascadia Mono",20,"bold"))
 
-            image.shape("pussy0.gif")
+            image.shape("32.gif")
             time.sleep(2)
-            image.shape("pussy1.gif")
+            image.shape("33.gif")
             time.sleep(2)
-            image.shape("pussy2.gif")
+            image.shape("34.gif")
             time.sleep(2)
 
             w.clear()
@@ -509,12 +511,12 @@ if password == "mia2024":
             planet = turtle.Turtle()
             scoreboard = turtle.Turtle()
             ship.speed(1000)
-            screen.addshape("space.gif")
-            screen.addshape("rocket_up.gif")
-            screen.addshape("rocket_down.gif")
-            screen.addshape("rocket_left.gif")
-            screen.addshape("rocket_right.gif")
-            screen.addshape("planet.gif")
+            screen.addshape("39.gif")
+            screen.addshape("38.gif")
+            screen.addshape("35.gif")
+            screen.addshape("36.gif")
+            screen.addshape("37.gif")
+            screen.addshape("29.gif")
 
 
             score = 0
@@ -524,21 +526,21 @@ if password == "mia2024":
             scoreboard.color("green")
 
             planet.speed(1)
-            planet.shape("planet.gif")
+            planet.shape("29.gif")
 
-            screen.bgpic("space.gif")
-            ship.shape("rocket_up.gif")
+            screen.bgpic("39.gif")
+            ship.shape("38.gif")
             ship.penup()
 
             def move():
                 def up():
-                    ship.shape("rocket_up.gif")
+                    ship.shape("38.gif")
                     ship.seth(90)
                     ship.fd(10)
                     ship.seth(0)
 
                 def down():
-                    ship.shape("rocket_down.gif")
+                    ship.shape("35.gif")
                     ship.seth(270)
                     ship.fd(10)
                     ship.seth(0)
@@ -548,7 +550,7 @@ if password == "mia2024":
                     ship.fd(10)
 
                 def left():
-                    ship.shape("rocket_left.gif")
+                    ship.shape("36.gif")
                     ship.bk(10)
 
                 turtle.onkeypress(up,"Up")
@@ -604,17 +606,17 @@ if password == "mia2024":
                 jj.showturtle()
                 mia.showturtle()
                 image.showturtle()
-                screen.bgpic("library-background.gif")
+                screen.bgpic("23.gif")
                 w.showturtle()
 
                 jjspeech.clear()
                 miaspeech.clear()
                 jjspeech.write("You are gorgeous Mia!",font=("Cascadia Mono",20,"bold"))
-                image.shape("mast0.gif")
+                image.shape("24.gif")
                 time.sleep(1)
-                image.shape("mast1.gif")
+                image.shape("25.gif")
                 time.sleep(1)
-                image.shape("mast1.gif")
+                image.shape("26.gif")
                 time.sleep(1)
                 image.shape("11.gif")
                 time.sleep(1)
@@ -656,5 +658,5 @@ else:
     turtle.write("invalid license key",font=("Cascadia Mono",20,"bold"))
     time.sleep(4)
     sys.exit()
-"""
+
 turtle.done()
