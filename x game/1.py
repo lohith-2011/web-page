@@ -97,12 +97,12 @@ if password == "mia2024":
             time.sleep(3)
             w.clear()
             w.goto(-500,50)
-            w.write("give all the input in lowercase only and that to \n without space and any other character.\n if you are in problamatic situation\n press 'x' to exit thhe game immediatly.",font=("Cascadia Mono",30,"bold"))
+            w.write("give all the input in lowercase only and that to \n without space and any other character.\n if you are in problamatic situation\n press 'x' to exit the game immediatly.",font=("Cascadia Mono",30,"bold"))
             time.sleep(5)
             w.clear()
             
-            screen.setup(width=1424,height=900)
-            screen.screensize(canvheight=900,canvwidth=1424)
+            screen.setup(width=2424,height=1400)
+            screen.screensize(canvheight=1400,canvwidth=2424)
             screen.bgcolor("white")
             screen.addshape("12.gif")
             screen.addshape("43.gif")
@@ -658,5 +658,6 @@ else:
     turtle.write("invalid license key",font=("Cascadia Mono",20,"bold"))
     time.sleep(4)
     sys.exit()
+
 
 turtle.done()
