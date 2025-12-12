@@ -1,15 +1,14 @@
 import turtle
 import time
-import sys
+import sys, os
 import random, threading
 
-def emergency_exit():
-    sys.exit()
-
+print("your user id:")
+print("NPPR9-FWDCX-D2C8J-H872K-2YT43")
 
 password = turtle.textinput("password","enter the license key ")
 
-if password == "mia2024":
+if password == "46J3N-RY6B3-BJFDY-VBFT9-V22HG":
 
     jj = turtle.Turtle()
     jjspeech = turtle.Turtle()
@@ -24,22 +23,21 @@ if password == "mia2024":
     basket = turtle.Turtle()
     object1 = turtle.Turtle()
     scoreboard = turtle.Turtle()
-    screen.addshape("47.gif")
-    screen.addshape("21.gif")
-    screen.addshape("20.gif")
+
+    screen.title("mia's striptease")
+
+    screen.setup(width=1900,height=1000,startx=-0,starty=-0)
+    screen.screensize(canvheight=1000,canvwidth=1900)
+
 
     w.penup()
     wi.penup()
-
-    def pos():
-        x = p.pos()
-        print(x)
 
     pan.penup()
     pan.hideturtle()
     pan.goto(365.00,-350.00)
 
-
+    screen.addshape("2.gif")
     screen.addshape("14.gif")
     screen.addshape("10.gif")
     screen.addshape("3.gif")
@@ -51,7 +49,6 @@ if password == "mia2024":
     screen.addshape("45.gif")
     screen.addshape("13.gif")
     screen.addshape("42.gif")
-    screen.addshape("2.gif")
     screen.addshape("27.gif")
     screen.addshape("28.gif")
     screen.addshape("30.gif")
@@ -73,6 +70,9 @@ if password == "mia2024":
     screen.addshape("46.gif")
     screen.addshape("22.gif")
     screen.addshape("49.gif")
+    screen.addshape("47.gif")
+    screen.addshape("21.gif")
+    screen.addshape("20.gif")
 
 
     w.penup()
@@ -84,8 +84,6 @@ if password == "mia2024":
     w.color("black")
 
     def init():
-        
-
         age = turtle.textinput("are you over 18 years old?","yes/no")
 
         if age == "yes":
@@ -98,34 +96,68 @@ if password == "mia2024":
             time.sleep(3)
             w.clear()
             w.goto(-500,50)
-            w.write("give all the input in lowercase only and that to \n without space and any other character.\n if you are in problamatic situation\n press 'x' to exit the game immediatly.",font=("Cascadia Mono",30,"bold"))
+            w.write("give all the input in lowercase only and that to \n without space and any other character.\n if you are in problamatic situation",font=("Cascadia Mono",30,"bold"))
             time.sleep(5)
             w.clear()
 
             jj.speed(100000)
             jj.penup()
-            jj.goto(-400,0)
+            jj.goto(-400,-300)
             jj.shape("42.gif")
+            jj.hideturtle()
             jjspeech.hideturtle()
             jjspeech.penup()
-            jjspeech.goto(-500,0)
+            jjspeech.goto(-500,-600)
             
-            screen.setup(width=2424,height=1400)
-            screen.screensize(canvheight=1400,canvwidth=2424)
+
             screen.bgcolor("white")
             screen.addshape("12.gif")
             screen.addshape("43.gif")
-            screen.bgpic("46.gif")
+            screen.bgpic("49.gif")
+
+            w.penup()
+            w.hideturtle()
+            w.goto(-800,-300)
+            wi.goto(-400,-300)
+            wi.showturtle()
+
+            jj.goto(-500 ,370)
+            jjspeech.goto(-650,370)
+            jj.showturtle()
+
+            w.write("you are going to meet mia at her home.",font=("Cascadica Mono",20,"bold"))
+            time.sleep(3)
+            w.clear()
             
-
-            jjspeech.write("She must be whore! \n She had fucked a lot of people!",font=("castellar",30,"bold"))
+            w.write("After arriving home.....",font=("Cascadica Mono",20,"bold"))
+            time.sleep(2)
+            jjspeech.write("There's nobody at home, let's go inside.",font=("Cascadica Mono",20,"bold"))
+            time.sleep(3)
+            screen.bgpic("46.gif")
             time.sleep(3)
             jjspeech.clear()
-            jjspeech.write("Must see her nude in live even once in life!",font=("castellar",30,"bold"))
+            w.clear()
+
+
+            jjspeech.write("She must be whore! \n She had fucked a lot of people!",font=("Cascadica Mono",20,"bold"))
             time.sleep(3)
             jjspeech.clear()
-            jjspeech.write("I think she in the library \n I shall go there!",font=("Cascadia Mono",30,"bold"))
+            jjspeech.write("Must see her nude in live even once in life!",font=("Cascadica Mono",20,"bold"))
+            time.sleep(3)
+            jjspeech.clear()
+            jjspeech.write("I think she in the library \n I shall go there!",font=("Cascadia Mono",20,"bold"))
+            jjspeech.clear()
 
+            w.write("you are going to the library.",font=("Cascadica Mono",20,"bold"))
+            screen.bgpic("22.gif")
+            time.sleep(3)
+
+            jj.hideturtle()
+            jj.goto(-400,0)
+            jjspeech.goto(-500,0)
+            jj.showturtle()
+
+            screen.bgpic("23.gif")
             mia.shape("14.gif")
             mia.hideturtle()
             image.shape("12.gif")
@@ -136,19 +168,9 @@ if password == "mia2024":
             mia.showturtle()
             miaspeech.penup()
             miaspeech.hideturtle()
-            miaspeech.goto(-500,300)
+            miaspeech.goto(-520,300)
 
-            
-            w.penup()
-            w.hideturtle()
-            w.goto(-800,-300)
-            wi.goto(-400,-300)
-            wi.showturtle()
-            w.write("you are going to the library.",font=("castel1ar",30,"bold"))
-            screen.bgpic("22.gif")
-
-
-            miaspeech.write("I think I am the hottest woman in the world.\n do you agree with me?",font=("Cascadia Mono",16,"bold"))
+            miaspeech.write("I think I am the hottest \n woman in the world.\n do you agree with me?",font=("Cascadia Mono",20,"bold"))
             scarf = turtle.textinput("the hottest ","yes/no")
 
             if scarf == "yes":
@@ -162,7 +184,7 @@ if password == "mia2024":
                 miaspeech.clear()
             else:
                 jjspeech.write("No you ugly piece of shit!",font=("Cascadia Mono",20,"bold"))
-                image.shape('12.gif')
+                image.shape("12.gif")
                 miaspeech.write("you didn't knew me at all, \n I don't want you anymore",font=("Cascadia Mono",20,"bold"))
                 time.sleep(3)
                 miaspeech.clear()
@@ -252,64 +274,40 @@ if password == "mia2024":
                 bra = turtle.textinput("bra measurement","enter the size of het breast in cm ")
                 miaspeech.clear()
             
-            w.write("You have sucessfully undressed her upperbody.\nlet's finish her lower parts",font=("Cascadia Mono",20,"bold")) 
-
+            w.write("You have sucessfully undressed her upperbody.\nlet's finish her lower parts",font=("Cascadia Mono",20,"bold"))
+            
             miaspeech.write("don't see me like that !\n I am feelng nervous \n I'll turn around",font=("Cascadia Mono",20,"bold"))
             time.sleep(3)
             miaspeech.clear()
             image.shape("2.gif")
-
             miaspeech.write("I usually don't like jeans pant\n couls you help me remove it?",font=("Cascadia Mono",20,"bold"))
             w.clear()
             w.write("move the pointer to mia's left buttock's top",font=("Cascadia Mono",20,"bold"))
+            miaspeech.write("want to see something sexy?",font=("Cascadia Mono",20,"bold"))
 
-            p.shape("30.gif")
-            p.penup()
-            pan.write("move here")
+            pan.pendown()
+            for i in range(4):
+                pan.forward(50)
+                pan.left(90)
 
-            def north():
-                p.setheading(90)
-                p.forward(5)
-                p.speed(100)
-                p.setheading(0)
-            def south():
-                p.setheading(270)
-                p.forward(5)
-                p.speed(100)
-                p.setheading(0)
-            def east():
-                p.setheading(0)
-                p.forward(5)
-                p.speed(100)
-                p.setheading(0)
-            def west():
-                p.setheading(180)
-                p.forward(5)
-                p.speed(100)
-                p.setheading(0)
+            pan.penup()
+            pan.goto(355,-340)
+            pan.write("click")
 
-            turtle.onkeypress(north,"Up")
-            turtle.onkeypress(south,"Down")
-            turtle.onkeypress(east,"Right")
-            turtle.onkeypress(west,"Left")
+            def btn_click(x,y):
+                if x > 365 and x< 415 and y > -350 and y< -300:
+                    print("butt clicked")
+                    image.shape("28.gif")
+                    time.sleep(2)
+                    image.shape("27.gif")
+                    time.sleep(2)
+                    image.shape("48.gif")
+                    time.sleep(2)
+                    
 
             turtle.listen()
-            while True:
-                screen.update()
-                if p.distance(pan) < 100:
-                    image.shape("27.gif")
-                    time.sleep(1)
-                    image.shape("28.gif")
-                    miaspeech.clear()
-                    w.clear()
-                    miaspeech.write("Ahh! you touched there!\n I am feeling sexy now",font=("Cascadia Mono",20,"bold"))
-                    time.sleep(3)
-                    miaspeech.clear()
-                    break
-            p.hideturtle()
-            pan.hideturtle()
+            turtle.onscreenclick(btn_click,1)
 
-            miaspeech.write("want to see something sexy?",font=("Cascadia Mono",20,"bold"))
             panty = turtle.textinput("want to see something cool?","yes/no")
 
             if panty =="yes":
@@ -420,7 +418,7 @@ if password == "mia2024":
             screen.bgpic("47.gif")
             basket.penup()
 
-            turtle.title("Screen experiment")
+            turtle.title("Bra catcher game")
 
             turtle.setup(width = 810, height=847, startx =0,starty=0)
             turtle.screensize(canvwidth = 800,canvheight= 800)
@@ -458,7 +456,7 @@ if password == "mia2024":
                     object1.hideturtle()
                     score = score + 1
                     scoreboard.clear()
-                    scoreboard.write("score:{}".format(score),font=("castellar",24,"bold"))    
+                    scoreboard.write("score:{}".format(score),font=("Cascadica Mono",24,"bold"))    
                     x=random.randint(-380,380)
                     object1.goto(x,380)
                     object1.showturtle()
@@ -468,12 +466,12 @@ if password == "mia2024":
 
                 if score == -5: 
                     scoreboard.clear()
-                    scoreboard.write("game over",font=("castellar",24,"bold"))
+                    scoreboard.write("game over",font=("Cascadica Mono",24,"bold"))
                     break
 
                 if score>9:
                     scoreboard.clear()
-                    scoreboard.write("you win!",font=("castellar",24,"bold"))
+                    scoreboard.write("you win!",font=("Cascadica Mono",24,"bold"))
                     break
 
             p.showturtle()
@@ -482,6 +480,10 @@ if password == "mia2024":
             image.showturtle()
             screen.bgpic("23.gif")
             w.showturtle()
+            object1.hideturtle()
+            basket.hideturtle()
+            screen.setup(width=1900,height=1000,startx=-0,starty=-0)
+            screen.screensize(canvheight=1000,canvwidth=1900)
 
             miaspeech.write("let me show you something special",font=("Cascadia Mono",20,"bold"))
             jjspeech.write("I am waiting for it mia",font=("Cascadia Mono",20,"bold"))
@@ -515,115 +517,31 @@ if password == "mia2024":
             scoreboard = turtle.Turtle()
             ship.speed(1000)
             screen.addshape("39.gif")
-            screen.addshape("38.gif")
-            screen.addshape("35.gif")
-            screen.addshape("36.gif")
-            screen.addshape("37.gif")
+            
+            
+            
+            
             screen.addshape("29.gif")
+        
+            p.showturtle()
+            jj.showturtle()
+            mia.showturtle()
+            image.showturtle()
+            screen.bgpic("23.gif")
+            w.showturtle()
 
-
-            score = 0
-            scoreboard.hideturtle()
-            scoreboard.penup()
-            scoreboard.goto(0,200)
-            scoreboard.color("green")
-
-            planet.speed(1)
-            planet.shape("29.gif")
-
-            screen.bgpic("39.gif")
-            ship.shape("38.gif")
-            ship.penup()
-
-            def move():
-                def up():
-                    ship.shape("38.gif")
-                    ship.seth(90)
-                    ship.fd(10)
-                    ship.seth(0)
-
-                def down():
-                    ship.shape("35.gif")
-                    ship.seth(270)
-                    ship.fd(10)
-                    ship.seth(0)
-
-                def right():
-                    ship.shape("rocket_right.gif")
-                    ship.fd(10)
-
-                def left():
-                    ship.shape("36.gif")
-                    ship.bk(10)
-
-                turtle.onkeypress(up,"Up")
-                turtle.onkeypress(down,"Down")
-                turtle.onkeypress(right,"Right")
-                turtle.onkeypress(left,"Left")
-                turtle.listen()
-
-            def planet_mover():
-                while True:
-                    screen.update()
-                    planet.penup()
-                    x =random.randint(-500,500)
-                    y= random.randint(-100,100)
-                    planet.goto(x,y)
-                    time.sleep(5)
-                
-
-                    if ship.distance(planet) < 192:
-                        global score
-                        score += 1
-                        print("Score:",score)
-                    
-                    if score > 10:
-                        planet.hideturtle()
-                        ship.shape("rocket_right.gif")
-                        ship.goto(440,220)
-                        break
-                    
-            def scorer():
-                while True:
-                    time.sleep(0.2)
-                    scoreboard.clear()
-                    scoreboard.write("Score:{}".format(score),align="center",font=("arial",16,"bold"))
-
-                    if score > 10:
-                        scoreboard.clear()
-                        scoreboard.write("You Have Won The game!",font=("arial",24,"bold"))
-                        threading.current_thread()._stop()
-                        break
-                        
-
-
-            t0 = threading.Thread(target = move)
-            t1 = threading.Thread(target = planet_mover)
-            t2 = threading.Thread(target = scorer)
-            t0.start()
-            t1.start()
-            t2.start()
-
-            if score > 10:
-                p.showturtle()
-                jj.showturtle()
-                mia.showturtle()
-                image.showturtle()
-                screen.bgpic("23.gif")
-                w.showturtle()
-
-                jjspeech.clear()
-                miaspeech.clear()
-                jjspeech.write("You are gorgeous Mia!",font=("Cascadia Mono",20,"bold"))
-                image.shape("24.gif")
-                time.sleep(1)
-                image.shape("25.gif")
-                time.sleep(1)
-                image.shape("26.gif")
-                time.sleep(1)
-                image.shape("11.gif")
-                time.sleep(1)
-                jjspeech.clear()
+            jjspeech.clear()
+            miaspeech.clear()
+            jjspeech.write("You are gorgeous Mia!",font=("Cascadia Mono",20,"bold"))
+            image.shape("24.gif")
+            time.sleep(1)
+            image.shape("25.gif")
+            time.sleep(1)
+            image.shape("26.gif")
+            time.sleep(1)
+            image.shape("11.gif")
+            time.sleep(1)
+            jjspeech.clear()
 
         else:
             w.clear()
@@ -652,15 +570,7 @@ if password == "mia2024":
 
 
 
-    turtle.onkeypress(pos,"p")
-    turtle.onkeypress(init,"y")
-    turtle.onkeypress(emergency_exit,"x")  
-    turtle.listen() 
-
-else:
-    turtle.write("invalid license key",font=("Cascadia Mono",20,"bold"))
-    time.sleep(4)
-    sys.exit()
-
+turtle.onkeypress(init,"y")
+turtle.listen() 
 
 turtle.done()
